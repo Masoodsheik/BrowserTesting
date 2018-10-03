@@ -12,7 +12,7 @@ public class CrossBrowser {
 	WebDriver driver;
 	
 	@Parameters("BrowserName")
-
+	
 	@BeforeMethod
 	public void LaunchBrowser(String BrowserName) {
 
@@ -41,5 +41,6 @@ public class CrossBrowser {
 	public void closeBrowser() {
 
 		driver.close();
+		driver.quit();
 	}
 }
