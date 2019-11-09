@@ -25,6 +25,7 @@ public class CrossBrowser {
 		} else if (BrowserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 			System.out.println("Browser Selected is" + BrowserName);
+System.out.println("Browser launched");
 		}
 	}
 
